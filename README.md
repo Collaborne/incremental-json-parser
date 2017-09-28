@@ -1,5 +1,7 @@
 # incremental-json-parser
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Collaborne/incremental-json-parser.svg)](https://greenkeeper.io/)
+
 ## License
 
     This software is licensed under the Apache 2 license, quoted below.
