@@ -1,0 +1,39 @@
+{
+  "name": "incremental-json-parser",
+  "version": "0.0.1",
+  "description": "Parse content incrementally and produce events whenever a complete JSON chunk is available",
+  "main": "index.js",
+  "scripts": {
+    "install": "check-node-version --package",
+    "prepublish": "eslint *.js test",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collaborne/incremental-json-parser.git"
+  },
+  "keywords": [
+    "JSON",
+    "incremental",
+    "parser",
+    "stream"
+  ],
+  "author": "Collaborne B.V. <opensource@collaborne.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Collaborne/incremental-json-parser/issues"
+  },
+  "homepage": "https://github.com/Collaborne/incremental-json-parser#readme",
+  "dependencies": {
+    "check-node-version": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=6.11"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.7.2",
+    "eslint-config-collaborne": "^1.1.0",
+    "mocha": "^3.5.3"
+  }
+}
