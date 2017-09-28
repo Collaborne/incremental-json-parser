@@ -1,4 +1,4 @@
-# incremental-json-parser
+# incremental-json-parser [![Build Status](https://travis-ci.org/Collaborne/incremental-json-parser.svg?branch=master)](https://travis-ci.org/Collaborne/incremental-json-parser)
 
 ## License
 
